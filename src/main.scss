@@ -2,27 +2,31 @@ html {font-size: 16px;}
 
 body{background: rgb(240, 240, 240);}
 
-.web-title{
-    margin: 2rem;
-    color: rgb(61, 61, 59);
-    font-size: 3rem;
+.headline{
+    background: rgb(216, 27, 43);
+    
+}
+.head-img{
+    width:300px; height: auto;
+    margin-top: 1rem;
+    margin-left: 6rem;
 }
 .cards {
     margin: 1rem auto;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(6,230px);
+    grid-template-columns: repeat(5,230px);
     grid-row-gap: 1rem;
-    grid-column-gap: 1rem;
+    grid-column-gap: 2rem;
 }
 .card{
     text-align: center;
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    //background-color: rgb(235, 235, 235);
     width: 200px;
     padding-bottom: 1rem;
+    box-shadow: 0.1px 0.1px 5px cadetblue;
 }
 
 .main-img{
